@@ -57,7 +57,7 @@ header{
 .banner{
     width: 100%;
     height: 500px;
-    background-image: url("../img/banner-inicio.jpg");
+    background-image: url("../img/banner.jpg");
     background-position: center;
     background-size: cover;
 
@@ -81,6 +81,7 @@ header{
 .llamada-accion p{
     font-size: 18px;
     color: white;
+    font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
@@ -115,7 +116,7 @@ header{
 
 .bienvenido{
     width: 100%;
-    background-color: #3e606f;
+    background-color: #c25b5b;
     color: #fff;
     text-align: center;
     margin-top: 2px;
@@ -176,7 +177,7 @@ header{
 .conocenos h3{
     padding-top: 20px;
     padding-bottom: 30px;
-    color: #0e96dd;
+    color: #a4281f;
     font-size: 18px;
 }
 
@@ -195,8 +196,14 @@ header{
 
 .conocenos a{
     font-size: 15px;
-    color: #0e96dd;
+    color: #fff;
+    background-color: #a4281f;
+    
+    padding: 10px 20px;
+    text-decoration: none;
+
 }
+
 
 
 /*      FIN SECCION DE NOSOTROS     */
@@ -204,11 +211,11 @@ header{
 /*     FOOTER    */
 
 .top-footer{
-    background-color: #193441;
+    background-color: #a4281f;;
     height: 25px;
 }
 .center-footer{
-    background-color: #152d37;
+    background-color: #c25b5b;
 
 }
 
@@ -222,23 +229,49 @@ header{
     text-align: center;
     padding-top: 20px;
     padding-bottom: 35px;
-    color: #7a7a7a;
+    color: #fff;
     max-width: 270px;
     margin: 0 auto;
 }
 .center-footer, .widget h4{
     padding-bottom: 35px;
+    
+}
+
+.center-footer .social{
+    text-align: center;
+    max-width: 270px;
+    margin: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+.center-footer .social ul li{
+    list-style: none;
+   
+    
+}
+.center-footer .social ul li a{
+    display: block;
+    color: white;
+}
+
+
+.center-footer .social h4{
+    padding-bottom: 35px;
 }
 
 .bottom-footer{
-    background-color: #193441;
-    color: #7a7a7a;
+    background-color: #a4281f;
+    color: #fff;
 
 }
 
 .bottom-footer p{
     font-size: 12px;
-    color: #7a7a7a;
+    color: #fff;
     text-align: center;
 }
 /*    FIN DE FOOTER    */
